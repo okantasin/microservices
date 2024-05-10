@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 9000
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
@@ -22,15 +22,14 @@ spring:
     active:
       - "qa"
 
-
 build:
   version: "3.0"
 
-accounts:
-  message: "Welcome to EazyBank accounts related local APIs "
+cards:
+  message: "Welcome to EazyBank cards related local APIs "
   contactDetails:
-    name: "John Doe - Developer"
-    email: "john@eazybank.com"
+    name: "Dragos Lech - Developer"
+    email: "dragos@eazybank.com"
   onCallSupport:
-    - (555) 555-1234
-    - (555) 523-1345
+    - (412) 419-3491
+    - (915) 382-1932

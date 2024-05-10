@@ -2,7 +2,7 @@ package com.ms.template.accounts.service;
 
 import com.ms.template.accounts.dto.CustomerDto;
 
-public interface IAccountServices {
+public interface IAccountService {
 
     void createAccount(CustomerDto customerDto);
 
