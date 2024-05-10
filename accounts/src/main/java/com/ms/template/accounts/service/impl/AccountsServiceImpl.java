@@ -11,7 +11,7 @@ import com.ms.template.accounts.mapper.AccountsMapper;
 import com.ms.template.accounts.mapper.CustomerMapper;
 import com.ms.template.accounts.repository.AccountsRepository;
 import com.ms.template.accounts.repository.CustomerRepository;
-import com.ms.template.accounts.service.IAccountService;
+import com.ms.template.accounts.service.IAccountsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -21,7 +21,7 @@ import java.util.Random;
 
 @Service
 @AllArgsConstructor
-public class AccountsServiceImpl implements IAccountService {
+public class AccountsServiceImpl implements IAccountsService {
     private AccountsRepository accountsRepository;
     private CustomerRepository customerRepository;
 

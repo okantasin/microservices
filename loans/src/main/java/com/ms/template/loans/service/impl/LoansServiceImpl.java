@@ -1,10 +1,10 @@
 package com.ms.template.loans.service.impl;
 
-import com.ms.template.accounts.exception.ResourceNotFoundException;
 import com.ms.template.loans.constants.LoansConstants;
 import com.ms.template.loans.dto.LoansDto;
 import com.ms.template.loans.entity.Loans;
 import com.ms.template.loans.exception.LoanAlreadyExistsException;
+import com.ms.template.loans.exception.ResourceNotFoundException;
 import com.ms.template.loans.mapper.LoansMapper;
 import com.ms.template.loans.repository.LoansRepository;
 import com.ms.template.loans.service.ILoansService;

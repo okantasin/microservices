@@ -5,7 +5,7 @@ import com.ms.template.accounts.dto.AccountsContactInfoDto;
 import com.ms.template.accounts.dto.CustomerDto;
 import com.ms.template.accounts.dto.ErrorResponseDto;
 import com.ms.template.accounts.dto.ResponseDto;
-import com.ms.template.accounts.service.IAccountService;
+import com.ms.template.accounts.service.IAccountsService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -32,11 +32,8 @@ import org.springframework.web.bind.annotation.*;
 @Validated
 public class AccountsController {
 
-    private final IAccountService iAccountsService;
-
-    public AccountsController(IAccountService iAccountsService) {
-        this.iAccountsService = iAccountsService;
-    }
+    @Autowired
+    private IAccountsService iAccountsService;
 
     @Value("${build.version}")
     private String buildVersion;

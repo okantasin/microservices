@@ -1,6 +1,5 @@
 package com.ms.template.loans.exception;
 
-import com.ms.template.accounts.exception.ResourceNotFoundException;
 import com.ms.template.loans.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
