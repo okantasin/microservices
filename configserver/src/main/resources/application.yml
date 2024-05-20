@@ -8,7 +8,7 @@ spring:
     config:
       server:
          native:
-           search-locations: "classpath:/config"
+           search-locations: "file:/home/okan/Desktop/microservice-workpsace/config"
 
 server:
   port: 8071
